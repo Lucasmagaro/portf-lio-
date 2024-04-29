@@ -120,7 +120,10 @@ strong {
     margin-top: 5%;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 615px) {
+  body {
+    width: 100%px;
+  }
   .cabecalho {
     margin-top: 3%;
     gap: 20px;
@@ -129,6 +132,11 @@ strong {
     font-size: 1rem;
   }
   .conteudo {
-    width: 350px;
+    width: 80%;
+    text-align: center;
+  }
+  .botao a {
+    width: 100%;
   }
 }
+
